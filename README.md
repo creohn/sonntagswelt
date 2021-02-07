@@ -6,8 +6,8 @@ This world is up & running on a template map.
 
 In order to build the map:
 
-- the [Tiled editor](https://www.mapeditor.org/) software
-- "tiles" (i.e. images) to create the map (the starter provides a default tileset)
+- "tiles" (i.e. images) to create the map (the starter provides a default tileset) & a pixel editor (if you want to create an own tileset or alter an existing one, e.g. Photoshop or whatever you like)
+- the [Tiled Map Editor](https://www.mapeditor.org/) software
 - a web-server to serve the map (this world uses Github static pages as a web-server)
 
 
@@ -41,14 +41,15 @@ In order to design a map that will be readable by WorkAdventure, you will have t
 
 In particular, you will need to:
 
-- set a start position for the players (garden)
+- set a start position for the players (e.g. an hallway, a garden &c)
 - configure the "floor layer" (so that WorkAdventure can correctly display characters above the floor, but under the ceiling)
 - eventually, you can place exits that link to other maps
 
 All this is described in the [WorkAdventure documentation](https://github.com/thecodingmachine/workadventure/#designing-a-map).
- 
+
 
 ### Pushing the map
 
 When your changes are ready, you need to "commit" and "push" the changes back to GitHub.
+Make sure, you include the .json-map & the .png-tiles.
 Just wait a few minutes, and your map will be propagated automatically to the GitHub pages web-server.
