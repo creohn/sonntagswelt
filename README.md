@@ -42,7 +42,7 @@ In order to design a map that will be readable by WorkAdventure, you will have t
 In particular, you will need to:
 
 - set a start position for the players (e.g. an hallway, a garden &c)
-- configure the "floor layer" (so that WorkAdventure can correctly display characters above the floor, but under the ceiling)
+- configure the „floor layer” (so that WorkAdventure can correctly display characters above the floor, but under the ceiling)
 - eventually, you can place exits that link to other maps
 
 All this is described in the [WorkAdventure documentation](https://github.com/thecodingmachine/workadventure/#designing-a-map).
@@ -50,6 +50,6 @@ All this is described in the [WorkAdventure documentation](https://github.com/th
 
 ### Pushing the map
 
-When your changes are ready, you need to "commit" and "push" the changes back to GitHub.
+When your changes are ready, you need to commit & push the changes back to GitHub.
 Make sure, you include the .json-map & the .png-tiles.
 Just wait a few minutes, and your map will be propagated automatically to the GitHub pages web-server.
