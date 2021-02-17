@@ -6,7 +6,7 @@ This world is up & running on a template map.
 
 In order to build the map:
 
-- "tiles" (i.e. images) to create the map (the starter provides a default tileset) & a pixel editor (if you want to create an own tileset or alter an existing one, e.g. Photoshop or whatever you like)
+- „tiles“ (i.e. images) to create the map (the starter provides a default tileset) & a pixel editor (if you want to create an own tileset or alter an existing one, e.g. Photoshop or whatever you like)
 - the [Tiled Map Editor](https://www.mapeditor.org/) software
 - a web-server to serve the map (this world uses Github static pages as a web-server)
 
